@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <definition name="baseLayout" template="/WEB-INF/layout/layout.jsp">
+        <put-attribute name="title" value="EmployeeApp"/>
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp"/>
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp"/>
+    </definition>
+
+    <definition name="home" extends="baseLayout">
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp"/>
+    </definition>
+
+    <definition name="addEmployee" extends="baseLayout">
+        <put-attribute name="body" value="/WEB-INF/views/add-edit-employee.jsp"/>
+    </definition>
+
+    <definition name="editEmployee" extends="baseLayout">
+        <put-attribute name="body" value="/WEB-INF/views/add-edit-employee.jsp"/>
+    </definition>
+
+    <definition name="employeeList" extends="baseLayout">
+        <put-attribute name="body" value="/WEB-INF/views/employee-list.jsp"/>
+    </definition>
+
+    <definition name="employeeView" extends="baseLayout">
+        <put-attribute name="body" value="/WEB-INF/views/employee-view.jsp"/>
+    </definition>
+
+    <definition name="employeeListGrid" extends="baseLayout">
+        <put-attribute name="body" value="/WEB-INF/views/employee-list-grid.jsp"/>
+    </definition>
+
+</tiles-definitions>
