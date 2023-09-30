@@ -31,12 +31,12 @@ Follow these steps to run the application:
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/javadkt/spring-jsp-jpa.git
+   git clone https://github.com/javadkt/spring-jsp-playground.git
     ```
    
 2. Navigate to the project's root directory:
    ```
-   cd spring-jsp-jpa
+   cd spring-jsp-playground
    ```
    
 3. Build the project using Maven:
@@ -46,9 +46,9 @@ Follow these steps to run the application:
    
 4. Deploy the application to Apache Tomcat:
 
-   Copy the generated WAR file (usually named spring-jsp-jpa.war) from the target directory to the Tomcat webapps directory.
+   Copy the generated WAR file (usually named spring-jsp-playground.war) from the target directory to the Tomcat webapps directory.
    Start Tomcat to deploy the application.
    
 5. Access the application in your web browser:
 
-   Open your web browser and go to http://localhost:8080/spring-jsp-jpa (replace spring-jsp-jpa with the context path if different).  
+   Open your web browser and go to http://localhost:8080/spring-jsp-playground (replace spring-jsp-playground with the context path if different).  
