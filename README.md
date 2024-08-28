@@ -15,7 +15,7 @@ Before you begin, ensure you have the following prerequisites installed on your 
  ### Technology Stack
 Component                   | Technology                            
 ---                         | ---                               
-SDK (Java Development Kit)  | Java                                  
+SDK (Java Development Kit)  | Java 1.8                                  
 Framework                   | Spring                    
 Persistence                 | JPA               
 View Technology             | JSP and Apache Tiles  
